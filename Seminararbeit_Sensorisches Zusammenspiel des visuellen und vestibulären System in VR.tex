@@ -126,11 +126,11 @@ delenit augue duis dolore te feugait nulla facilisi.%
 %% ``\begin{document}'' command. It prepares and prints the title block.
 
 %% the only exception to this rule is the \firstsection command
-\firstsection{Introduction}
+%% \firstsection{Introduction}
 
 \maketitle
 
-%% \section{Introduction} %for journal use above \firstsection{..} instead
+\section{Introduction} %for journal use above \firstsection{..} instead
 This template is for papers of VGTC-sponsored conferences which are \emph{\textbf{not}} published in a special issue of TVCG.
 
 \section{Using the Style Template}
@@ -148,10 +148,11 @@ DVI-based processes to compile the template apparently cannot handle the differe
 
 \begin{itemize}
 \item Sort all bibliographic entries alphabetically but the last name of the first author. This \LaTeX/bib\TeX\ template takes care of this sorting automatically.
-\item Merge multiple references into one; e.\,g., use \cite{Byagowi:2014:VRNChair,Weech:2019:PresenceCS} (not \cite{Byagowi:2014:VRNChair}\cite{Weech:2019:PresenceCS}). Within each set of multiple references, the references should be sorted in ascending order. This \LaTeX/bib\TeX\ template takes care of both the merging and the sorting automatically.
+\item Merge multiple references into one; e.\,g., use \cite{Byagowi:2014:VRNchair,Weech:2019:PresenceCS} (not \cite{Byagowi:2014:VRNChair}\cite{Weech:2019:PresenceCS}). Within each set of multiple references, the references should be sorted in ascending order. This \LaTeX/bib\TeX\ template takes care of both the merging and the sorting automatically.
 \item Verify all data obtained from digital libraries, even ACM's DL and IEEE Xplore  etc.\ are sometimes wrong or incomplete.
 \item Do not trust bibliographic data from other services such as Mendeley.com, Google Scholar, or similar; these are even more likely to be incorrect or incomplete.
-\item Articles in journal---items to include:
+\item Articles in journal---items to include: 
+
   \begin{itemize}
   \item author names \cite{Gallagher:2019:VEMP}
 	\item title
@@ -374,8 +375,7 @@ rebum.
 
 %% if specified like this the section will be committed in review mode
 \acknowledgments{
-The authors wish to thank A, B, C. This work was supported in part by
-a grant from XYZ.}
+Der Autor m\"ochte Amon Ties Uerckwitz f\"ur eine effiziente, effektive und gelungene Zusammenarbeit im Themenkomplex \" Human Factors \" danken.}
 
 %\bibliographystyle{abbrv}
 \bibliographystyle{abbrv-doi}

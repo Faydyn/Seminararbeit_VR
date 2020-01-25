@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären System in VR.aux
+Case mismatch error between cite keys Byagowi:2014:VRNChair and Byagowi:2014:VRNchair
+---line 20 of file Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären System in VR.aux
+ : \citation{Byagowi:2014:VRNChair
+ :                                }
+I'm skipping whatever remains of this command
 The style file: abbrv-doi.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: sources.bib
@@ -13,24 +18,24 @@ Warning--I didn't find a database entry for "Wyvill:1986:DSS"
 Warning--I didn't find a database entry for "Nielson:1991:TAD"
 You've used 3 entries,
             2598 wiz_defined-function locations,
-            634 strings with 5360 characters,
-and the built_in function-call counts, 3022 in all, are:
-= -- 688
+            640 strings with 5519 characters,
+and the built_in function-call counts, 3050 in all, are:
+= -- 693
 > -- 54
 < -- 118
 + -- 139
 - -- 21
-* -- 101
-:= -- 453
+* -- 105
+:= -- 456
 add.period$ -- 9
 call.type$ -- 3
 change.case$ -- 18
 chr.to.int$ -- 0
 cite$ -- 3
-duplicate$ -- 33
-empty$ -- 78
+duplicate$ -- 32
+empty$ -- 79
 format.name$ -- 18
-if$ -- 801
+if$ -- 803
 int.to.chr$ -- 0
 int.to.str$ -- 3
 missing$ -- 3
@@ -40,9 +45,9 @@ pop$ -- 12
 preamble$ -- 1
 purify$ -- 15
 quote$ -- 0
-skip$ -- 21
+skip$ -- 22
 stack$ -- 0
-substring$ -- 184
+substring$ -- 197
 swap$ -- 3
 text.length$ -- 65
 text.prefix$ -- 0
@@ -52,4 +57,4 @@ warning$ -- 0
 while$ -- 15
 width$ -- 4
 write$ -- 107
-(There were 7 warnings)
+(There was 1 error message)

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.31)  25 JAN 2020 14:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.31)  25 JAN 2020 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,47 +688,51 @@ n/9 f\OT1/txtt/m/n/9 abbrv-doi-hyperref-narrow\OMS/txtt/m/n/9 g\OT1/ptm/m/n/9 '
 '
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 162.
+
+LaTeX Warning: Citation `Byagowi:2014:VRNChair' on page 1 undefined on input li
+ne 151.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 163.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 163.
  [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 []\OT1/ptm/m/n/9 abbreviated pro-cee-dings na-me: e.g., ``Proc.\OMS/cmsy/m/n/9 
 n
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 169--170
+Underfull \hbox (badness 4229) in paragraph at lines 170--171
 \OT1/ptm/m/n/9 CONF[]ACRONYNM'' wi-thout the ye-ar; ex-amp-le:
  []
 
 
 LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 1
-85.
+86.
 
 
 LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 1
-85.
+86.
 
 
-LaTeX Warning: Citation `Kitware:2003' on page 2 undefined on input line 197.
+LaTeX Warning: Citation `Kitware:2003' on page 2 undefined on input line 198.
 
 
-LaTeX Warning: Citation `Max:1995:OMF' on page 2 undefined on input line 197.
+LaTeX Warning: Citation `Max:1995:OMF' on page 2 undefined on input line 198.
 
 
 LaTeX Warning: Citation `Kindlmann:1999:SAG' on page 2 undefined on input line 
-213.
+214.
 
 
-Overfull \hbox (0.62288pt too wide) in paragraph at lines 254--288
+Overfull \hbox (0.62288pt too wide) in paragraph at lines 255--289
  [][] 
  []
 
@@ -736,36 +740,36 @@ Overfull \hbox (0.62288pt too wide) in paragraph at lines 254--288
 File: pictures/paper-count-w-2015-new.eps Graphic file (type eps)
 <pictures/paper-count-w-2015-new.eps>
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 322.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 323.
 
 
 LaTeX Warning: Citation `Isenberg:2017:VMC' on page 3 undefined on input line 3
-22.
+23.
 
 
 LaTeX Warning: Citation `Isenberg:2017:VMC' on page 3 undefined on input line 3
-22.
+23.
 
 
 LaTeX Warning: Citation `Lorensen:1987:MCA' on page 3 undefined on input line 3
-28.
+29.
 
 
 LaTeX Warning: Citation `Lorensen:1987:MCA' on page 3 undefined on input line 3
-31.
+32.
 
 
-LaTeX Warning: Citation `Wyvill:1986:DSS' on page 3 undefined on input line 331
+LaTeX Warning: Citation `Wyvill:1986:DSS' on page 3 undefined on input line 332
 .
 
 
 LaTeX Warning: Citation `Nielson:1991:TAD' on page 3 undefined on input line 34
-5.
+6.
 
 
 (./Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären Sys
 tem in VR.bbl
-Missing character: There is no è in font ptmr7t!
+Missing character: There is no ‐ in font ptmr7t!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 387.
  [3]
@@ -789,10 +793,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
  )
 (\end occurred when \ifx on line 238 was incomplete) 
 Here is how much of TeX's memory you used:
- 11767 strings out of 492916
- 174000 string characters out of 6133345
+ 11771 strings out of 492916
+ 174047 string characters out of 6133345
  298354 words of memory out of 5000000
- 15686 multiletter control sequences out of 15000+600000
+ 15690 multiletter control sequences out of 15000+600000
  35645 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  34i,12n,45p,805b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
