@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.31)  25 JAN 2020 13:11
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.8.31)  25 JAN 2020 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -688,6 +688,18 @@ n/9 f\OT1/txtt/m/n/9 abbrv-doi-hyperref-narrow\OMS/txtt/m/n/9 g\OT1/ptm/m/n/9 '
 '
  []
 
+
+LaTeX Warning: Citation `Max:1995:OMF' on page 1 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Kitware:2003' on page 1 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Kitware:2003' on page 1 undefined on input line 151.
+
+
+LaTeX Warning: Citation `Max:1995:OMF' on page 1 undefined on input line 151.
+
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 162.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -710,6 +722,24 @@ Underfull \hbox (badness 4229) in paragraph at lines 169--170
  []
 
 
+LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 1
+85.
+
+
+LaTeX Warning: Citation `Lorensen:1987:MCA' on page 2 undefined on input line 1
+85.
+
+
+LaTeX Warning: Citation `Kitware:2003' on page 2 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Max:1995:OMF' on page 2 undefined on input line 197.
+
+
+LaTeX Warning: Citation `Kindlmann:1999:SAG' on page 2 undefined on input line 
+213.
+
+
 Overfull \hbox (0.62288pt too wide) in paragraph at lines 254--288
  [][] 
  []
@@ -717,6 +747,33 @@ Overfull \hbox (0.62288pt too wide) in paragraph at lines 254--288
 [2]
 File: pictures/paper-count-w-2015-new.eps Graphic file (type eps)
 <pictures/paper-count-w-2015-new.eps>
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 322.
+
+
+LaTeX Warning: Citation `Isenberg:2017:VMC' on page 3 undefined on input line 3
+22.
+
+
+LaTeX Warning: Citation `Isenberg:2017:VMC' on page 3 undefined on input line 3
+22.
+
+
+LaTeX Warning: Citation `Lorensen:1987:MCA' on page 3 undefined on input line 3
+28.
+
+
+LaTeX Warning: Citation `Lorensen:1987:MCA' on page 3 undefined on input line 3
+31.
+
+
+LaTeX Warning: Citation `Wyvill:1986:DSS' on page 3 undefined on input line 331
+.
+
+
+LaTeX Warning: Citation `Nielson:1991:TAD' on page 3 undefined on input line 34
+5.
+
 
 (./Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären Sys
 tem in VR.bbl
@@ -737,15 +794,18 @@ s visuellen und vestibulären System in VR".out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 387.
  )
 (\end occurred when \ifx on line 238 was incomplete) 
 Here is how much of TeX's memory you used:
- 11762 strings out of 492916
- 173904 string characters out of 6133345
- 298529 words of memory out of 5000000
- 15681 multiletter control sequences out of 15000+600000
- 35109 words of font info for 78 fonts, out of 8000000 for 9000
+ 11765 strings out of 492916
+ 173954 string characters out of 6133345
+ 298268 words of memory out of 5000000
+ 15684 multiletter control sequences out of 15000+600000
+ 35645 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  34i,12n,45p,805b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 
