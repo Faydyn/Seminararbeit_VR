@@ -13,6 +13,5 @@ magick -density 300 "Seminararbeit_Sensorisches Zusammenspiel des visuellen und 
 ```
 ____
 ## Paper
-![Page00](pictures/paper-0.png)
-![Page01](pictures/paper-1.png)
-![Page02](pictures/paper-2.png)
+![Page00](pictures/paper.png)
+
