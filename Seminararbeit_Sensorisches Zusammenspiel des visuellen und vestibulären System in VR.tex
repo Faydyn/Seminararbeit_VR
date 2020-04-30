@@ -47,8 +47,8 @@
 \PassOptionsToPackage{warn}{textcomp}  % to address font issues with \textrightarrow
 \usepackage{textcomp}                  % use better special symbols
 \usepackage{mathptmx}                  % use matching math font
-\usepackage{times}                     % we use Times as the main font
-\usepackage[english]{babel}
+\usepackage{times}
+\usepackage[english,ngerman]{babel}                     % we use Times as the main font
 \renewcommand*\ttdefault{txtt}         % a nicer typewriter font
 \usepackage{cite}                      % needed to automatically sort the references
 \usepackage{tabu}                      % only used for the table example
@@ -74,7 +74,7 @@
 
 %% Paper title.
 
-\title{Sensory Interaction between Visual and Vestibular System in Virtual Reality}
+\title{Sensorisches Zusammenspiel des visuellen und vestibul\"aren Systems in Virtual Reality}
 
 
 \author{Nils Henrik Seitz\thanks{e-mail: nils.seitz@uni-rostock.de}\\ %
@@ -88,18 +88,8 @@
 %}
 
 %% Abstract section.
-\abstract{Duis autem vel eum iriure dolor in hendrerit in vulputate
-velit esse molestie consequat, vel illum dolore eu feugiat nulla
-facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-praesent luptatum zzril delenit augue duis dolore te feugait nulla
-facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem
-vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
-delenit augue duis dolore te feugait nulla facilisi.%
+\abstract{
+	\input{content/Zusammenfassung.tex}
 } % end of abstract
 
 %% ACM Computing Classification System (CCS). 
@@ -129,23 +119,36 @@ delenit augue duis dolore te feugait nulla facilisi.%
 %% ``\begin{document}'' command. It prepares and prints the title block.
 
 %% the only exception to this rule is the \firstsection command
-%% \firstsection{Introduction}
+%% \firstsection{Einleitung}
 
 \maketitle
 
-\section{Introduction} %for journal use above \firstsection{..} instead
+\section{Einleitung} %for journal use above \firstsection{..} instead 
+	\input{content/Einleitung.tex}
 
-\section{Methods}
+
+\section{Methoden}
 % Make Structure(section, sub(sub)sections, enumerate/itemize, figures and tables (see original for formatting (LABEL THEM, do captions, width and centering)), <- AUTOREF, make cites (FROM BIBDESK!!) and footnotes, sparsely use texttt / -it / -bf, use good latex style (symbols, equtions, etc.) and good indentation!)
 
-\section{Results}
+%% FIGURES
+%\begin{figure}[tb]
+%	\centering % avoid the use of \begin{center}...\end{center} and use \centering instead (more compact)
+%	\includegraphics[width=\columnwidth]{paper-count-w-2015-new}
+%	\caption{A visualization of the data from \autoref{tab:vis_papers}. The image is from \cite{Isenberg:2017:VMC} and is in the public domain.}
+%	\label{fig:sample}
+%\end{figure}
+	\input{content/Methoden.tex}
 
-\section{Conclusion}
+\section{Ergebnisse}
+	\input{content/Ergebnisse.tex}
+
+\section{Fazit}
+	\input{content/Fazit.tex}
 
 
 
 \acknowledgments{
-The author would like to thank Amon Ties Uerckwitz for the cooperation during preparation of the subject ''Human Factors and Perception``.}
+Der Autor m\"ochte Amon Ties Uerckwitz f\"ur die Zusammenarbeit im Themengebiet ''Human Factors and Perception`` danken.}
 
 %\bibliographystyle{abbrv}
 %\bibliographystyle{abbrv-doi}
