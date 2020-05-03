@@ -13,5 +13,5 @@ magick -density 300 "Seminararbeit_Sensorisches Zusammenspiel des visuellen und 
 ```
 ____
 ## Paper
-![Page00](Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären System in VR.png)
+![Page00](Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären System in VR.pdf)
 
