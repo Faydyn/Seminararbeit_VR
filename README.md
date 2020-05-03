@@ -9,7 +9,7 @@ GitHub-Repository ist eher als Cloudspeicher mit VCS gedacht.
 <br>
 ImageMagick-Conversion from .pdf to .png:
 ```
-magick -density 300 "Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären System in VR.pdf"  -quality 100 -alpha off "pictures/paper.png" 
+magick -density 300 "Seminararbeit_Sensorisches Zusammenspiel des visuellen und vestibulären System in VR.pdf"  -quality 100 -alpha on "pictures/paper.png" 
 ```
 ____
 ## Paper
