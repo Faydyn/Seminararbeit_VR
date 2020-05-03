@@ -16,7 +16,11 @@
 \fi%
 
 \graphicspath{{figures/}{pictures/}{images/}{./}} % where to search for the images
-\usepackage{hyperref} 
+
+
+
+
+
 \usepackage{microtype}                 % use micro-typography (slightly more compact, better to read)
 \usepackage[OT1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -29,7 +33,7 @@
 \usepackage{cite}                      % needed to automatically sort the references
 \usepackage{tabu}                      % only used for the table example
 \usepackage{booktabs}                  % only used for the table example
-
+\usepackage{hyperref} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \onlineid{0}
@@ -49,9 +53,10 @@
 
 \CCScatlist{ 
 	\CCScat{H.1.2}{Models and Principles}{User/Machine Systems}{Human factors, Human information processing};
-	\CCScat{H.5.1}{Information Interfaces and Presentation (e.g., HCI)}{Multimedia Information Systems}{Artificial, augmented, and virtual realities}}
+	\CCScat{H.5.1}{Information Interfaces and Presentation (e.g., HCI)}{Multimedia Information Systems}{Artificial, augmented, and virtual realities}
+}
 
-\keywords{Visual-vestibular conflict, motion sickness, cyber sickness, multisensory integration}
+\keywords{Visual-vestibular conflict, motion sickness, cyber sickness}
 
 % Make Structure(section, sub(sub)sections, enumerate/itemize, figures and tables (see original for formatting (LABEL THEM, do captions, width and centering)), <- AUTOREF, make cites (FROM BIBDESK!!) and footnotes, sparsely use texttt / -it / -bf, use good latex style (symbols, equtions, etc.) and good indentation!)
 
@@ -66,14 +71,13 @@
 \begin{document}
 
 \maketitle
-
 \section{Einleitung} 
 	\input{content/Einleitung}
-
-\section{Cybersickness}
-	\input{content/Cybersickness}
-
-\section{Methoden}
+\section{Motion Sickness}
+	\input{MotionSickness}
+	
+\newpage
+\section{Maßnahmen gegen Cyber Sickness}\label{Maßnahmen gegen CS}
 	\input{content/Methoden}
 
 \section{Ergebnisse}

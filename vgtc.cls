@@ -218,7 +218,6 @@
    nesting=true,
    linktocpage}
   \renewcommand{\pdfbookmark}[3][]{}
-
 	%% it is recomended to use ``\autoref{sec:bla}'' instead of ``Fig.~\ref{sec:bla}''
   %% the following lines re-define the respective tags used in the \autoref calls
   \newcommand{\subfigureautorefname}{Fig.} % in case someone uses subfigures
