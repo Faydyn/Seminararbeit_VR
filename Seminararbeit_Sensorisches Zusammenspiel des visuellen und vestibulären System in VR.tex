@@ -1,31 +1,7 @@
-% $Id: template.tex 11 2007-04-03 22:25:53Z jpeltier $
-
-%\documentclass{vgtc}                          % final (conference style)
-%\documentclass[review]{vgtc}                 % review
-%\documentclass[widereview]{vgtc}             % wide-spaced review
+% !TEX encoding = UTF-8 Unicode
+% !TEX spellcheck = de_DE
 \documentclass[preprint]{vgtc}               % preprint
-%\documentclass[electronic]{vgtc}             % electronic version
 
-%% Uncomment one of the lines above depending on where your paper is
-%% in the conference process. ``review'' and ``widereview'' are for review
-%% submission, ``preprint'' is for pre-publication, and the final version
-%% doesn't use a specific qualifier. Further, ``electronic'' includes
-%% hyperreferences for more convenient online viewing.
-
-%% Please use one of the ``review'' options in combination with the
-%% assigned online id (see below) ONLY if your paper uses a double blind
-% review process. Some conferences, like IEEE Vis and InfoVis, have NOT
-%% in the past.
-
-%% Figures should be in CMYK or Grey scale format, otherwise, colour 
-%% shifting may occur during the printing process.
-
-%% These few lines make a distinction between latex and pdflatex calls and they
-%% bring in essential packages for graphics and font handling.
-%% Note that due to the \DeclareGraphicsExtensions{} call it is no longer necessary
-%% to provide the the path and extension of a graphics file:
-%% \includegraphics{diamondrule} is completely sufficient.
-%%
 \ifpdf%                                % if we use pdflatex
   \pdfoutput=1\relax                   % create PDFs from pdfLaTeX
   \pdfcompresslevel=9                  % PDF Compression
@@ -39,95 +15,44 @@
   \DeclareGraphicsExtensions{.eps}     % for pure latex we expect eps files
 \fi%
 
-%% it is recomended to use ``\autoref{sec:bla}'' instead of ``Fig.~\ref{sec:bla}''
 \graphicspath{{figures/}{pictures/}{images/}{./}} % where to search for the images
 \usepackage{hyperref} 
 \usepackage{microtype}                 % use micro-typography (slightly more compact, better to read)
-\usepackage[OT1]{fontenc} 
+\usepackage[OT1]{fontenc}
+\usepackage[utf8]{inputenc}
 \PassOptionsToPackage{warn}{textcomp}  % to address font issues with \textrightarrow
 \usepackage{textcomp}                  % use better special symbols
 \usepackage{mathptmx}                  % use matching math font
 \usepackage{times}
-\usepackage[english,ngerman]{babel}                     % we use Times as the main font
+\usepackage[english,ngerman]{babel}                     
 \renewcommand*\ttdefault{txtt}         % a nicer typewriter font
 \usepackage{cite}                      % needed to automatically sort the references
 \usepackage{tabu}                      % only used for the table example
 \usepackage{booktabs}                  % only used for the table example
-%% We encourage the use of mathptmx for consistent usage of times font
-%% throughout the proceedings. However, if you encounter conflicts
-%% with other math-related packages, you may want to disable it.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% If you are submitting a paper to a conference for review with a double
-%% blind reviewing process, please replace the value ``0'' below with your
-%% OnlineID. Otherwise, you may safely leave it at ``0''.
 \onlineid{0}
 
-%% declare the category of your paper, only shown in review mode
 \vgtccategory{Research}
 
-%% allow for this line if you want the electronic option to work properly
 \vgtcinsertpkg
 
-%% In preprint mode you may define your own headline.
 \preprinttext{Seminar Virtual und Augmented Reality -- WS 2019/20}
-
-%% Paper title.
 
 \title{Sensorisches Zusammenspiel des visuellen und vestibul\"aren Systems in Virtual Reality}
 
+\author{Nils Henrik Seitz\thanks{e-mail: nils.seitz@uni-rostock.de}\\ \scriptsize Universit\"at Rostock}
 
-\author{Nils Henrik Seitz\thanks{e-mail: nils.seitz@uni-rostock.de}\\ %
-        \scriptsize Universität Rostock }
+\abstract{ \input{content/Zusammenfassung}} 
 
-%% A teaser figure can be included as follows, but is not recommended since
-%% the space is now taken up by a full width abstract.
-%\teaser{
-%  \includegraphics[width=1.5in]{sample.eps}
-%  \caption{Lookit! Lookit!}
-%}
-
-%% Abstract section.
-\abstract{
-	\input{content/Zusammenfassung.tex}
-} % end of abstract
-
-%% ACM Computing Classification System (CCS). 
-%% See <http://www.acm.org/class/1998/> for details.
-%% The ``\CCScat'' command takes four arguments.
 
 \CCScatlist{ 
-  \CCScat{H.1.2}{Models and Principles}%
-	{User/Machine Systems}{Human factors, Human information processing};
-  \CCScat{H.5.1}{Information Interfaces and Presentation (e.g., HCI)}%
-	{Multimedia Information Systems}{Artificial, augmented, and virtual realities};
-}
+	\CCScat{H.1.2}{Models and Principles}{User/Machine Systems}{Human factors, Human information processing};
+	\CCScat{H.5.1}{Information Interfaces and Presentation (e.g., HCI)}{Multimedia Information Systems}{Artificial, augmented, and virtual realities}}
 
-\keywords{Visual-vestibular conflict, motion sickness, cyber sickness, }
+\keywords{Visual-vestibular conflict, motion sickness, cyber sickness, multisensory integration}
 
-%% Copyright space is enabled by default as required by guidelines.
-%% It is disabled by the 'review' option or via the following command:
-% \nocopyrightspace
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%% START OF THE PAPER %%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{document}
-
-%% The ``\maketitle'' command must be the first command after the
-%% ``\begin{document}'' command. It prepares and prints the title block.
-
-%% the only exception to this rule is the \firstsection command
-%% \firstsection{Einleitung}
-
-\maketitle
-
-\section{Einleitung} %for journal use above \firstsection{..} instead 
-	\input{content/Einleitung.tex}
-
-
-\section{Methoden}
 % Make Structure(section, sub(sub)sections, enumerate/itemize, figures and tables (see original for formatting (LABEL THEM, do captions, width and centering)), <- AUTOREF, make cites (FROM BIBDESK!!) and footnotes, sparsely use texttt / -it / -bf, use good latex style (symbols, equtions, etc.) and good indentation!)
 
 %% FIGURES
@@ -137,24 +62,29 @@
 %	\caption{A visualization of the data from \autoref{tab:vis_papers}. The image is from \cite{Isenberg:2017:VMC} and is in the public domain.}
 %	\label{fig:sample}
 %\end{figure}
-	\input{content/Methoden.tex}
+
+\begin{document}
+
+\maketitle
+
+\section{Einleitung} 
+	\input{content/Einleitung}
+
+\section{Cybersickness}
+	\input{content/Cybersickness}
+
+\section{Methoden}
+	\input{content/Methoden}
 
 \section{Ergebnisse}
-	\input{content/Ergebnisse.tex}
+	\input{content/Ergebnisse}
 
 \section{Fazit}
-	\input{content/Fazit.tex}
+	\input{content/Fazit}
 
+\section*{Danksagung}{
+	Der Autor m\"ochte Amon Ties Uerckwitz f\"ur die Zusammenarbeit im Themengebiet "`Human Factors and Perception"' danken.}
 
-
-\acknowledgments{
-Der Autor m\"ochte Amon Ties Uerckwitz f\"ur die Zusammenarbeit im Themengebiet ''Human Factors and Perception`` danken.}
-
-%\bibliographystyle{abbrv}
-%\bibliographystyle{abbrv-doi}
-%\bibliographystyle{abbrv-doi-narrow}
-%\bibliographystyle{abbrv-doi-hyperref}
 \bibliographystyle{abbrv-doi-hyperref-narrow}
-
 \bibliography{sources}
 \end{document}
